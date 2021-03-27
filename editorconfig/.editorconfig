@@ -1,0 +1,65 @@
+# editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+max_line_length = 80
+trim_trailing_whitespace = true
+
+[*.{c,h}]
+indent_size = 8
+indent_style = tab
+max_line_length = 80
+
+[*.txt]
+indent_size = 2
+indent_style = tab
+max_line_length = 80
+
+[*.rb]
+indent_size = 2
+indent_style = space
+
+[*.go]
+indent_size = 8
+indent_style = tab
+
+[*.rs]
+indent_size = 4
+indent_style = space
+max_line_length = 99
+
+[*.{js,json}]
+indent_size = 4
+indent_style = space
+
+[*.md]
+indent_size = 2
+indent_style = space
+
+[*.dfy]
+indent_size = 4
+indent_style = space
+
+[*.c]
+indent_size = 4
+indent_style = space
+max_line_length = 80;
+
+[*.py]
+indent_size = 2
+indent_style = space
+
+[*.thy]
+indent_size = 2
+indent_style = space
+
+[*.s]
+indent_size = 8
+indent_style = tab
+
+[COMMIT_EDITMSG]
+max_line_length = 0
+max_line_length = 72
