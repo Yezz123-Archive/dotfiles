@@ -1,0 +1,92 @@
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "editor.minimap.enabled": true,
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "yaml.customTags": [],
+    "go.formatTool": "goimports",
+    "workbench.colorTheme": "One Dark Pro",
+    "vsicons.dontShowNewVersionMessage": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Pylance",
+    "php.executablePath": "/usr/bin/php7.4",
+    "python.showStartPage": false,
+    "git.ignoreMissingGitWarning": true,
+    "workbench.colorCustomizations": {},
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.enableSmartCommit": true,
+    "powershell.powerShellDefaultVersion": "Windows PowerShell (x86)",
+    "files.associations": {
+        "*.html": "html"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "git.confirmSync": false,
+    "cmake.configureOnOpen": true,
+    "php.validate.executablePath": "/usr/bin/php7.4",
+    "C_Cpp.updateChannel": "Insiders",
+    "debug.onTaskErrors": "showErrors",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "jupyter.alwaysTrustNotebooks": true,
+    "jupyter.askForKernelRestart": false,
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": "{{put-password-here}}"
+        }
+    ],
+    "editor.linkedEditing": true,
+    "workbench.editor.enablePreview": false,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "files.autoSave": "afterDelay",
+    "settingsSync.ignoredExtensions": [],
+    "workbench.productIconTheme": "material-product-icons",
+    "liveshare.presence": false,
+    "files.maxMemoryForLargeFilesMB": 8000,
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[makefile]": {
+        "editor.insertSpaces": true
+    },
+    "discord.detailsIdling": "UnderSun",
+    "discord.largeImageIdling": "UnderHell",
+    "discord.lowerDetailsIdling": "UnderWater",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.iconTheme": "vscode-icons"
+}
