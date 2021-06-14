@@ -8,7 +8,8 @@
     "git.autofetch": true,
     "yaml.customTags": [],
     "go.formatTool": "goimports",
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Material Theme High Contrast",
     "vsicons.dontShowNewVersionMessage": true,
     "[dart]": {
         "editor.formatOnSave": true,
@@ -32,13 +33,13 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "git.enableSmartCommit": true,
     "powershell.powerShellDefaultVersion": "Windows PowerShell (x86)",
+    "workbench.startupEditor": "welcomePage",
     "files.associations": {
-        "*.html": "html"
+        "*.html": "html",
+        "*.php": "php"
     },
     "liveServer.settings.donotVerifyTags": true,
     "git.confirmSync": false,
-    "cmake.configureOnOpen": true,
-    "php.validate.executablePath": "/usr/bin/php7.4",
     "C_Cpp.updateChannel": "Insiders",
     "debug.onTaskErrors": "showErrors",
     "explorer.confirmDragAndDrop": false,
@@ -50,7 +51,13 @@
             "server": "{{put-server-name-here}}",
             "database": "{{put-database-name-here}}",
             "user": "{{put-username-here}}",
-            "password": "{{put-password-here}}"
+            "password": ""
+        },
+        {
+            "server": ".",
+            "database": "",
+            "authenticationType": "Integrated",
+            "password": ""
         }
     ],
     "editor.linkedEditing": true,
@@ -61,16 +68,16 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
     },
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "go.toolsManagement.autoUpdate": true,
     "files.autoSave": "afterDelay",
-    "settingsSync.ignoredExtensions": [],
-    "workbench.productIconTheme": "material-product-icons",
+    "tabnine.experimentalAutoImports": true,
+    "settingsSync.ignoredExtensions": [
+        "bradlc.vscode-tailwindcss"
+    ],
+    "workbench.productIconTheme": "fluent-icons",
     "liveshare.presence": false,
     "files.maxMemoryForLargeFilesMB": 8000,
     "[css]": {
@@ -80,13 +87,41 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[makefile]": {
-        "editor.insertSpaces": true
+        "editor.insertSpaces": false
     },
-    "discord.detailsIdling": "UnderSun",
-    "discord.largeImageIdling": "UnderHell",
-    "discord.lowerDetailsIdling": "UnderWater",
+    "discord.detailsIdling": "Coding Potato",
+    "discord.largeImageIdling": "Coding Potato",
+    "discord.lowerDetailsIdling": "Coding Potato",
     "[javascript]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-    "workbench.iconTheme": "vscode-icons"
+    "cmake.configureOnOpen": false,
+    "gitlens.advanced.messages": {
+        "suppressCreatePullRequestPrompt": true,
+        "suppressLineUncommittedWarning": true
+    },
+    "sqltools.useNodeRuntime": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.tabs.enabled": true,
+    "settingsSync.ignoredSettings": [],
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.codeActionsOnSave": null,
+    "cSpell.userWords": [
+        "Codice",
+        "Fiscale",
+        "Singlehotel",
+        "dbrouter",
+        "iprestrict",
+        "qrcode"
+    ]
 }

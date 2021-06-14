@@ -1,46 +1,46 @@
 [user]
-	name = Yasser Tahiri
-	email = yasserth19@protonmail.com
+name = Yasser Tahiri
+email = yasserth19@protonmail.com
 [advice]
-	addIgnoredFile = false
+addIgnoredFile = false
 [alias]
-	a = add
-	aa = add --all
-	always = "!git rev-parse 2>/dev/null || cd ~/github/git; git"
-	br = branch
-	ci = commit
-	co = checkout
-	di = diff
-	lb = checkout -
-	lg = log --oneline
-	ll = "!git always --no-pager log -1 --pretty='tformat:%h (%s, %ad)' --date=short"
-	pp = print-patch
-	st = status
-	w = "!tig"
-	vgrep = jump grep
-	vdiff = jump diff
-	vmerge = jump merge
+a = add
+aa = add --all
+always = "!git rev-parse 2>/dev/null || cd ~/github/git; git"
+br = branch
+ci = commit
+co = checkout
+di = diff
+lb = checkout -
+lg = log --oneline
+ll = "!git always --no-pager log -1 --pretty='tformat:%h (%s, %ad)' --date=short"
+pp = print-patch
+st = status
+w = "!tig"
+vgrep = jump grep
+vdiff = jump diff
+vmerge = jump merge
 [push]
-	default = current
+default = current
 [pull]
-	default = current
-	rebase = true
+default = current
+rebase = true
 [branch]
-	autosetuprebase = always
+autosetuprebase = always
 [core]
-	excludesfile = ~/.gitignore
-	pager = less -+F
+excludesfile = ~/.gitignore
+pager = less -+F
 [diff]
-	compactionHeuristic = true
-	algorithm = patience
+compactionHeuristic = true
+algorithm = patience
 [merge]
-	conflictstyle = diff3
+conflictstyle = diff3
 [rerere]
-  enabled = 1
-  autoupdate = 1
+enabled = 1
+autoupdate = 1
 [tig]
-	line-graphics = utf-8
-	main-view-id = yes
-	main-view-id-width = 10
+line-graphics = utf-8
+main-view-id = yes
+main-view-id-width = 10
 [url "ssh://git@github.com/"]
-	insteadOf = https://github.com/
+insteadOf = https://github.com/
